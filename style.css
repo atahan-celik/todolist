@@ -20,8 +20,8 @@ body {
 }
 
 .app {
-    color: #ffffffb0;
-    background-color: #ffffff43;
+    color: #3d3c3cb0;
+    background-color: #20101043;
     width:var(--app-width);
     border-radius: var(--radius);
     padding:2rem;
@@ -33,6 +33,15 @@ body {
     margin-bottom: 40px;
     font-size: 28px;
 }
+.app h2 {
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 12px;
+    bottom: 0px;
+    position: fixed;
+    color: #ffffff9a;
+    
+}
 
 .todo-input {
     width: 100%;
@@ -41,13 +50,13 @@ body {
     border-radius: var(--radius);
     padding:1rem 1.5rem;
     font-size: 20px;
-    background-color: #f4f4f425;
+    background-color: #f8f8f825;
     color: white;
 
 }
 
 .todo-input::placeholder {
-    color: #ffffff70;
+    color: #f4f4f470;
 }
 
 .todos,
@@ -59,7 +68,7 @@ body {
 
 }
 .todo-item {
-    background-color: #f4f4f4bd;
+    background-color: #e6e3e3bd;
     padding: 1rem 1.5rem;
     border-radius: var(--radius);
     display: flex;
